@@ -111,16 +111,6 @@ matplotlib>=3.5
 
 ---
 
-## Citation
-
-If you use this code, please cite:
-
-> Castro S., Benitez-Stulz S., Dumont G., Gutkin B., Battaglia D. (in revision).
-> *Brain dynamics enable functional compensation for connectome degeneration.*
-> Communications Biology.
-
----
-
 ## License
 
 MIT License. See `LICENSE`.
