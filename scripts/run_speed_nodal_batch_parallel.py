@@ -44,7 +44,7 @@ PATH_OUT.mkdir(parents=True, exist_ok=True)
 # Parameters
 # ---------------------------------------------------------------------------
 WINDOW_LIST = list(range(5, 101))
-N_JOBS      = 8   # number of parallel workers (one per subject)
+N_JOBS      = 51   # number of parallel workers (one per subject)
 
 SUBJECT_FILES = [
     "tc_Coimagine_EDM92_0136_37_seeds.mat",
