@@ -1,3 +1,51 @@
-numpy>=1.22
-scipy>=1.8
-matplotlib>=3.5
+asttokens==3.0.1
+comm==0.2.3
+contourpy @ file:///home/task_176364365480719/conda-bld/contourpy_1763643923715/work
+cycler @ file:///home/task_176606792831380/croot/cycler_1766067950713/work
+debugpy==1.8.20
+decorator==5.2.1
+-e git+https://github.com/SamyCN89/dfc_speed.git@5a2799590c782cccdfe06ab421e08ffe4c2d19d6#egg=dfc_speed
+executing==2.2.1
+fonttools @ file:///home/task_177425654562917/croot/fonttools_1774256571755/work
+ipykernel==7.2.0
+ipython==9.13.0
+ipython_pygments_lexers==1.1.1
+jedi==0.19.2
+joblib @ file:///home/task_176786728785941/croot/joblib_1767868071713/work
+jupyter_client==8.8.0
+jupyter_core==5.9.1
+kiwisolver @ file:///home/task_176415927081510/conda-bld/kiwisolver_1764159298585/work
+matplotlib==3.10.8
+matplotlib-inline==0.2.1
+mkl-service==2.5.2
+mkl_fft @ file:///home/task_176159258493269/conda-bld/mkl_fft_1761592900924/work
+mkl_random @ file:///home/task_176159293775784/conda-bld/mkl_random_1761592951865/work
+nest-asyncio==1.6.0
+numpy @ file:///home/task_177073255161752/croot/numpy_and_numpy_base_1770732579388/work/dist/numpy-2.4.2-cp314-cp314-linux_x86_64.whl#sha256=ff6f3a8b80cd4adfc707dc6fb13ed1423619449c944b0eddc8db6b41119c3905
+packaging @ file:///home/task_176104874909647/conda-bld/packaging_1761049078203/work
+pandas @ file:///home/task_177547981253359/croot/pandas_1775480136956/work
+parso==0.8.6
+pexpect==4.9.0
+pillow @ file:///home/task_177247536674454/croot/pillow_1772475407876/work
+platformdirs==4.9.6
+prompt_toolkit==3.0.52
+psutil==7.2.2
+ptyprocess==0.7.0
+pure_eval==0.2.3
+Pygments==2.20.0
+pyparsing @ file:///home/task_176397380589210/conda-bld/pyparsing_1763973817532/work
+PyQt6==6.10.2
+PyQt6_sip @ file:///home/task_177247745254757/croot/pyqt-split_1772477505991/work/pyqt_sip
+python-dateutil @ file:///work/buildout/croot/python-dateutil_1759952394083/work
+pyzmq==27.1.0
+scipy @ file:///home/task_177627771366974/croot/scipy_1776277754272/work/dist/scipy-1.17.1-cp314-cp314-linux_x86_64.whl#sha256=55125d33876db35b7c348e27f9ca06ec977e7d35b852b2c69d8aac0b3e478fe9
+seaborn @ file:///work/buildout/croot/seaborn_1763640441258/work
+setuptools==82.0.1
+sip @ file:///home/task_177080689688581/croot/sip_1770807531403/work
+six @ file:///work/buildout/croot/six_1759952127748/work
+stack-data==0.6.3
+tornado==6.5.5
+tqdm @ file:///home/task_177139828372867/croot/tqdm_1771398700706/work
+traitlets==5.14.3
+wcwidth==0.6.0
+wheel==0.46.3
