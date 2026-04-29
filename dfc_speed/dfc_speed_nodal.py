@@ -14,6 +14,19 @@ import math
 import seaborn as sns
 from scipy.io import loadmat
 
+# ---------------------------------------------------------------------------
+# Canonical ROI list (37 bilateral regions, Allen Mouse Brain Atlas)
+# ---------------------------------------------------------------------------
+ROI_NAMES = [
+    "Both_AI", "Both_ORB", "Both_ILA", "Both_PL", "Both_ACA",
+    "Both_RSP", "Both_VIS", "Both_PTLp", "Both_TEa", "Both_MOp",
+    "Both_MOs", "Both_SSp", "Both_SSs", "Both_AUD", "Both_GU_VISC",
+    "Both_PERI", "Both_ENT", "Both_ECT", "Both_dhc", "Both_vhc",
+    "Both_SUB", "Both_EP", "Both_CLA", "Both_PIR", "Both_PALd",
+    "Both_PALv", "Both_ACB", "Both_CP", "Both_LSX", "Both_AAA_CEA_MEA",
+    "Both_HY", "Both_PO_PF", "Both_VPL_VPM", "Both_VTA", "Both_MBmot",
+    "Both_MBsen", "Both_MBsta",
+]
 
 # ---------------------------------------------------------------------------
 # Ensure repo root is on sys.path so both packages are importable
