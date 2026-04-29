@@ -1,9 +1,11 @@
-"""dfc_speed — Dynamic FC speed computation and distribution analysis."""
+"""dfc_speed — Dynamic Functional Connectivity Speed."""
 
-from .dfc_speed_compute import (
-    compute_dfc_speed,
-    compute_dfc_speed_batch,
-    speed_summary,
+from .dfc_speed_nodal import (
+    ts2dfc_stream,
+    dfc_speed_split,
+    dfc_speed_nodal,
+    compute_subject_nodal_speed,
+    compute_subject_global_speed,
 )
 from .dfc_speed_distributions import (
     pool_speeds,
@@ -15,13 +17,19 @@ from .dfc_speed_distributions import (
 )
 
 __all__ = [
-    "compute_dfc_speed",
-    "compute_dfc_speed_batch",
-    "speed_summary",
+    # core
+    "ts2dfc_stream",
+    "dfc_speed_split",
+    "dfc_speed_nodal",
+    # subject wrappers
+    "compute_subject_nodal_speed",
+    "compute_subject_global_speed",
+    # group analysis
     "pool_speeds",
     "group_summary",
     "permutation_test_speed",
     "bootstrap_mean_ci",
+    # plots
     "plot_speed_distributions",
     "plot_speed_timecourse",
 ]
